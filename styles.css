@@ -177,7 +177,7 @@ a:hover .material-icons {
 #S5 {
   background-color: rgb(235, 235, 235);
   flex-direction: column;
-  justify-content: center;
+  text-align: center;
   align-items: center;
   padding: 4rem 0;
 }
