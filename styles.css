@@ -198,7 +198,7 @@ a:hover .material-icons {
 }
 #S5 input {
   font-size: 1.15rem;
-  margin-left: 0.35rem;
+  margin: 0 0.55rem 0 0.35rem;
 }
 #S5 button {
   border-radius: 4px;
