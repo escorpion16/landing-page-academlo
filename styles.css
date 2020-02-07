@@ -1,0 +1,24 @@
+
+/* contenido del Header */
+
+.menu{
+    background-color: yellow;
+    color:#fff;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+
+}
+    i {
+        flex-basis: 20%;
+        
+    }
+    .menu-nav{
+        flex-basis: 80%;
+
+    }
+        .menu-nav a{
+            text-decoration: none;
+        }
