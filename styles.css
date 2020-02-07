@@ -65,6 +65,16 @@ footer div {
 #copyright {
   justify-content: space-between;
 }
+#copyright a {
+  color: inherit;
+}
+#copyright > div:first-child span {
+  margin-right: .5em;
+}
+#copyright > div:last-child span {
+  margin-left: 1.5em;
+
+}
 footer li.bold {
   font-weight: bold;
   margin-bottom: 1em;
