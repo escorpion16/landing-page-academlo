@@ -1,27 +1,69 @@
-
-/* contenido del Header */
-
-.menu{
-    background-color: tomato;
-    color:#fff;
-    height: 80px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-
-}
-    .logo i{
-        /* flex:1 1 auto; */
-        /* flex-basis: 20%; */
-        font-size: 20px;
-        
-    }
-    .menu-nav{
-        /* flex:1 1 auto; */
-        flex-basis: 80%;
-
-    }
-        .menu-nav a{
+*{
+    margin:0;
+    padding:0;
+  }
+  /* contenido del Header */
+  
+  .menu{
+      background-color:transparent;
+      color:#fff;
+      height: 80px;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items:center;
+  }
+      .logo i{
+        font-size:30px;
+        font-weight:400;
+        padding-left:25px;
+      }
+     
+          .menu-nav a{
             text-decoration: none;
-        }
+            margin-right:15px;
+            padding: 15px;
+            transition-duration: 0.5s;
+            color: #fff;
+          }
+
+          .menu-nav a:hover{
+              border-bottom: 1px solid #fff;
+          }
+  
+  .container{
+    height:300px;
+    width:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    margin-left:180px;
+    padding-top:80px;
+  }
+    .info-section{
+        background-color:#c2c2c2;
+        color: #fff;
+        background-image: url('img/img1.jpg');
+        background-repeat: round;
+        height: 700px;
+        width: 100%; 
+    }
+  
+  #work-email{
+    height:40px;
+  }
+  .caja-email{
+    position:relative;
+  }
+  
+    .caja-email span{
+      position:absolute;
+      z-index:2;
+      margin-top:-60px;
+      margin-left:320px;
+      display:block;
+      height:30px;
+      width:170px;
+      background-color:#F4DE44;
+      text-align:center; 
+    }
