@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Programa de viajes de negocios de Airbnb</title>
     <script src="https://kit.fontawesome.com/6423cb9ba2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Blinker|Roboto:400,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,8 +20,10 @@
                   <i class="fab fa-airbnb"></i>
                 </div>
                 <nav class="menu-nav">
-                    <a href="#">Español(ES)</a>
-                    <a href="#">EUR</a>
+                    <i class="fas fa-globe"></i>
+                    <a href="#" class="icons">Español(ES)</a>
+                    <i class="fas fa-euro-sign"></i>
+                    <a href="#" class="icons">EUR</a>
                     <a href="#">Conviértete en anfitrión</a>
                     <a href="#">Ayuda</a>
                     <a href="#">Regístrate</a>
@@ -29,21 +32,22 @@
             </section>
 
             <div class="container">
-            <div class="subtitulo">Siéntete como en casa allá donde te lleve tu trabajo</div>
-            <div>Echa un vistazo al vídeo de Airbnb for Work</div>
-            <div>Para empezar, añade tu correo electrónico de empresa</div> 
-            <input id="work-email" type="text" name="work-email">
+              <div class="subtitulo">Siéntete como en casa allá donde te lleve tu trabajo</div>
+              <span class="borde">Echa un vistazo al vídeo de Airbnb for Work <i class="fas fa-play" id="arrow"></i></span>
+              
+              <div>Para empezar, añade tu correo electrónico de empresa</div> 
+              
+              <input id="work-email" type="text" name="work-email">
 
-            <div class="caja-email">
-                    <span>Añadir correo electrónico</span> 
-            </div>
+              <div class="caja-email">
+                <input type="button" value="Añadir correo electrónico"> 
+              </div>
 
-            <div class="mas-informacion">
-                <div>
-                    <span>¿Administras viajes para tu empresa?</span>
-                </div>
-                <div>Más información</div>
-            </div>
+              <div class="mas-informacion">
+                  <div>¿Administras viajes para tu empresa?</div>
+                  <div class="borde">Más información</div>
+                  <i class="fas fa-chevron-right"></i>
+              </div>
             </div>
         </section>
     </header>

@@ -4,6 +4,17 @@
   }
   /* contenido del Header */
   
+  .info-section{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Blinker', sans-serif;
+    background-color:hsla(0, 0%, 0%, 0.534);
+    color: #fff;
+    background-image: url('img/img1.jpg');
+    filter:contrast(0.85);
+    background-repeat: round;
+    height: 700px;
+    width: 100%; 
+  }
   .menu{
       background-color:transparent;
       color:#fff;
@@ -13,57 +24,90 @@
       justify-content: space-between;
       align-items:center;
   }
+
       .logo i{
         font-size:30px;
         font-weight:400;
         padding-left:25px;
       }
      
-          .menu-nav a{
-            text-decoration: none;
-            margin-right:15px;
-            padding: 15px;
-            transition-duration: 0.5s;
-            color: #fff;
-          }
+      .menu-nav a{
+        text-decoration: none;
+        margin-right:15px;
+        padding: 15px;
+        transition-duration: 0.5s;
+        color: #fff;
+      }
 
-          .menu-nav a:hover{
-              border-bottom: 1px solid #fff;
-          }
-  
+      .menu-nav a:hover{
+        border-bottom: 1px solid #fff;
+      }
+
+      .menu-nav .icons{
+        padding-left: 0px;
+      }
+
   .container{
-    height:300px;
+    height:400px;
     width:500px;
     display:flex;
     flex-direction:column;
-    justify-content:space-around;
+    line-height: 3;
     margin-left:180px;
-    padding-top:80px;
+    padding-top:180px;
+    font-weight: 400;
+    font-size: 17px;
   }
-    .info-section{
-        background-color:#c2c2c2;
-        color: #fff;
-        background-image: url('img/img1.jpg');
-        background-repeat: round;
-        height: 700px;
-        width: 100%; 
-    }
-  
+    
   #work-email{
-    height:40px;
+    height:45px;
+    width: 420px;
+    border-radius: 5px;
   }
   .caja-email{
     position:relative;
   }
+    #arrow{
+      margin-left: 5px;
+      font-size: 12px;
+    }
   
-    .caja-email span{
+    .caja-email input{
       position:absolute;
       z-index:2;
-      margin-top:-60px;
-      margin-left:320px;
+      margin-top:-42px;
+      margin-left:225px;
       display:block;
-      height:30px;
-      width:170px;
-      background-color:#F4DE44;
-      text-align:center; 
+      height:35px;
+      width:190px;
+      background-color:#1B888B;
+      font-size: 15px;
+      color: #fff;
+      border-radius: 5px;
     }
+
+    .container .subtitulo{
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 1.13; 
+    }
+  
+    .mas-informacion{
+      display: flex; 
+    }
+
+    .mas-informacion div{
+      margin-right: 8px;
+    }
+
+    .mas-informacion i{
+      margin-top: 15px;
+    }
+      .borde{
+        font-weight: 600;
+        margin-right: auto;
+    
+      }
+      .borde:hover{
+        border-bottom: 1px solid #fff;
+      }
