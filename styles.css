@@ -1,4 +1,3 @@
-
 *{
     margin:0;
     padding:0;
@@ -314,8 +313,7 @@ a:hover .material-icons {
   padding: 0.5rem;
   cursor: text;
 }
-#S5 input,
-#S5 button {
+#S5 input, #S5 button {
   border: none;
   outline: none;
 }
